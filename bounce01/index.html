@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaid Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Zaid Ziad Almaiah</h1>
+    <p>Cyber Security</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <button id="themeBtn">Change Theme</button>
+</header>
+
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <img id="profilePhoto" src="assets/profile1.jpg" alt="Zaid profile photo 1" class="profile-photo">
+        <br>
+        <button id="photoBtn" type="button">Change Photo</button>
+        <p>
+            I am interested in Cyber Security. My skills include penetration testing,
+            web application security, vulnerability assessment, SIEM and log analysis,
+            and incident response. I like learning about security problems and ways to
+            protect systems and applications.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div>Penetration Testing</div>
+            <div>Web Application Security</div>
+            <div>Vulnerability Assessment</div>
+            <div>SIEM &amp; Log Analysis</div>
+            <div>Incident Response</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div>
+                <h3>Project 00</h3>
+                <p>Discovery Web Piscine exercises.</p>
+            </div>
+            <div>
+                <h3>Project 01</h3>
+                <p>Basic HTML and CSS exercises.</p>
+            </div>
+            <div>
+                <h3>Project 02</h3>
+                <p>Web development practice exercises.</p>
+            </div>
+            <div>
+                <h3>Project 03</h3>
+                <p>JavaScript and web practice exercises.</p>
+            </div>
+        </div>
+
+        <h3>Cyber Security Project</h3>
+        <p>Design and Implementation of a Hybrid VPN Communication Tool.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <p>Technology, learning Cyber Security, and problem solving.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:zaidhp2004@gmail.com">zaidhp2004@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/alm6no5" target="_blank">alm6no5</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/zaid-ziad-almaiah-219b28336/" target="_blank">Zaid Ziad Almaiah</a></p>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="email" id="email" placeholder="Your email" required>
+            <textarea id="message" placeholder="Your message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="formResult"></p>
+    </section>
+</main>
+
+<footer>
+    <p>2026 - Zaid Ziad Almaiah</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
